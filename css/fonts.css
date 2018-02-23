@@ -1,0 +1,94 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3261324, 2016-08-03T08:43:11-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Cera-Black by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/black/
+ *
+ * Webfont: Cera-Bold by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/bold/
+ *
+ * Webfont: Cera-Light by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/light/
+ *
+ * Webfont: Cera-BlackItalic by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/black-italic/
+ *
+ * Webfont: Cera-LightItalic by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/light-italic/
+ *
+ * Webfont: Cera-BoldItalic by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/bold-italic/
+ *
+ * Webfont: Cera-Medium by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/medium/
+ *
+ * Webfont: Cera-MediumItalic by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/medium-italic/
+ *
+ * Webfont: Cera-Regular by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/regular/
+ *
+ * Webfont: Cera-Thin by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/thin/
+ *
+ * Webfont: Cera-RegularItalic by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/italic/
+ *
+ * Webfont: Cera-ThinItalic by TypeMates
+ * URL: http://www.myfonts.com/fonts/typemates/cera/thin-italic/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3261324
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2015 by Jakob Runge, under exclusive license to TypeMates, Runge Thomsen GbR. All rights reserved.
+ *
+ * © 2016 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/31c38c");
+
+
+@font-face {font-family: 'Cera-Black';src: url('webfonts/31C38C_0_0.eot');src: url('webfonts/31C38C_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31C38C_0_0.woff2') format('woff2'),url('webfonts/31C38C_0_0.woff') format('woff'),url('webfonts/31C38C_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Cera-Bold';src: url('webfonts/31C38C_1_0.eot');src: url('webfonts/31C38C_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31C38C_1_0.woff2') format('woff2'),url('webfonts/31C38C_1_0.woff') format('woff'),url('webfonts/31C38C_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Cera-Light';src: url('webfonts/31C38C_2_0.eot');src: url('webfonts/31C38C_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31C38C_2_0.woff2') format('woff2'),url('webfonts/31C38C_2_0.woff') format('woff'),url('webfonts/31C38C_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Cera-BlackItalic';src: url('webfonts/31C38C_3_0.eot');src: url('webfonts/31C38C_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31C38C_3_0.woff2') format('woff2'),url('webfonts/31C38C_3_0.woff') format('woff'),url('webfonts/31C38C_3_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Cera-LightItalic';src: url('webfonts/31C38C_4_0.eot');src: url('webfonts/31C38C_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31C38C_4_0.woff2') format('woff2'),url('webfonts/31C38C_4_0.woff') format('woff'),url('webfonts/31C38C_4_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Cera-BoldItalic';src: url('webfonts/31C38C_5_0.eot');src: url('webfonts/31C38C_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31C38C_5_0.woff2') format('woff2'),url('webfonts/31C38C_5_0.woff') format('woff'),url('webfonts/31C38C_5_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Cera-Medium';src: url('webfonts/31C38C_6_0.eot');src: url('webfonts/31C38C_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31C38C_6_0.woff2') format('woff2'),url('webfonts/31C38C_6_0.woff') format('woff'),url('webfonts/31C38C_6_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Cera-MediumItalic';src: url('webfonts/31C38C_7_0.eot');src: url('webfonts/31C38C_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31C38C_7_0.woff2') format('woff2'),url('webfonts/31C38C_7_0.woff') format('woff'),url('webfonts/31C38C_7_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Cera-Regular';src: url('webfonts/31C38C_8_0.eot');src: url('webfonts/31C38C_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31C38C_8_0.woff2') format('woff2'),url('webfonts/31C38C_8_0.woff') format('woff'),url('webfonts/31C38C_8_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Cera-Thin';src: url('webfonts/31C38C_9_0.eot');src: url('webfonts/31C38C_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31C38C_9_0.woff2') format('woff2'),url('webfonts/31C38C_9_0.woff') format('woff'),url('webfonts/31C38C_9_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Cera-RegularItalic';src: url('webfonts/31C38C_A_0.eot');src: url('webfonts/31C38C_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31C38C_A_0.woff2') format('woff2'),url('webfonts/31C38C_A_0.woff') format('woff'),url('webfonts/31C38C_A_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Cera-ThinItalic';src: url('webfonts/31C38C_B_0.eot');src: url('webfonts/31C38C_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/31C38C_B_0.woff2') format('woff2'),url('webfonts/31C38C_B_0.woff') format('woff'),url('webfonts/31C38C_B_0.ttf') format('truetype');}
+ 
