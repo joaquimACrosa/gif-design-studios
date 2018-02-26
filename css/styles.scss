@@ -1,4 +1,7 @@
-@import "fonts.css";
+@import '_fonts.scss';
+@import '_colors.scss';
+@import '_layout.scss';
+
 
 @mixin bg-cover-center{
   background-position: center center;
@@ -35,53 +38,6 @@ a{
      display: inline-block;  /* For IE11/ MS Edge bug */
  }
 
-.align-center{
-  text-align: center;
-}
-.uppercase{
-    text-transform: uppercase;
-}
-.white{
-  color: #FFFFFF;
-}
-.black{
-  color: #e9b83b;
-}
-.dark_grey{
-  color: #3a3a3a;
-}
-.light_grey{
-  color: #dddcde;
-}
-.orange{
-  color: #ffaa00;
-}
-.bold{
-  font-family: Cera-Bold, Helvetica, Arial, sans-serif;
-}
-.row{
-  width: 80%;
-  margin: 0 auto;
-}
-[class*="col-"] {
-    float: left;
-}
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-.align-left{
-    text-align: left;
-}
 .btn{
   font-family: Cera-Bold, Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -141,48 +97,48 @@ a{
   color: #000000;
   background-color: #FFFFFF;
 }
-h1{
-  font-family: Cera-Bold, Helvetica, Arial, sans-serif;
-  font-size: 60px;
-  font-weight: 100;
-  line-height: 60px;
-  margin-top: 0;
-}
-h2{
-  font-size: 40px;
-  margin-bottom: 10px;
-  font-weight: 100;
-  line-height: 35px;
-  font-family: Cera-Bold, Helvetica, Arial, sans-serif;
-}
-h3{
-  font-size: 20px;
-  font-family: Cera-Regular, Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  line-height: 20px;
-}
-.our-founders-section h2{
-    padding-top: 21px;
-}
 
 /*HEADER*/
 #logo{
     position: fixed;
-    background-image: url('../img/GIF-Website-Logo.svg');
+    // background-image: url('../img/GIF-Website-Logo.svg');
     background-size: 32px;
     z-index: 10;
     left: 40px;
     top: 40px;
     width: 32px;
     height: 35px;
-    fill: #000000;
+
+    a{
+        svg{
+            width: 32px;
+            height: 35px;
+        }
+    }
 }
 
 #menu_toggle_container.background--light .bar1, #menu_toggle_container.background--light .bar2, #menu_toggle_container.background--light .bar3{
     background-color: #3a3a3a;
 }
-// .logo.background--light {
-//     background-image: url('../img/GIF-LogoBlack-@2x.png') !important;
+
+g.logo_svg.background--light {
+    fill: #3a3a3a;
+}
+
+.logo.background--light {
+    background-image: url('../img/GIF-LogoBlack-@2x.png') !important;
+    position: fixed;
+    background-size: 32px;
+    z-index: 11;
+    left: 40px;
+    top: 40px;
+    width: 32px;
+    height: 35px;
+    fill:#fff;
+}
+
+// .logo {
+//
 //     position: fixed;
 //     background-size: 32px;
 //     z-index: 10;
@@ -190,7 +146,19 @@ h3{
 //     top: 40px;
 //     width: 32px;
 //     height: 35px;
+//     fill:#000;
 // }
+
+#logo{
+    position: fixed;
+    background-size: 32px;
+    z-index: 10;
+    left: 40px;
+    top: 40px;
+    width: 32px;
+    height: 35px;
+    background-image: url('../img/GIF-LogoWhite-@2x.png');
+}
 
 #logo a{
   width: 32px;

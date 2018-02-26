@@ -1,5 +1,8 @@
 {
+    "name": "example-project",
+    "version": "2.0",
     "dependencies": {
-        "midnight.js": "^1.1.1"
+        "midnight.js": "^1.1.1",
+        "grunt": "~0.4.1"
     }
 }

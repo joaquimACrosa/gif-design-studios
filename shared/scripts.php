@@ -4,17 +4,16 @@
 <script src="../js/typed.min.js"></script>
 <script src="../js/squareResponsive.js"></script>
 <script type="text/javascript" src="../js/background-check.min.js"></script>
-
 <script src="../node_modules/midnight.jquery.js"></script>
-<script>
+<!-- <script>
   // Start midnight
   $(document).ready(function(){
     // Change this to the correct selector for your nav.
-    $('header.logo').midnight();
+    $('midnightHeader').midnight();
   });
-</script>
+</script> -->
 
-<!-- <script type="text/javascript">
+<script type="text/javascript">
   $(document).ready(function() {
       BackgroundCheck.init({
           targets: '.logo, #menu_toggle_container'
@@ -37,7 +36,7 @@
       });
 
   });
-</script> -->
+</script>
 
 <script rel='text/javascript'>
         $(function() {

@@ -23,7 +23,7 @@
   <main id="portfolio-page">
     <div>
       <!--PROJECT HEADER-->
-        <div id="single-project-cover" class="project_10 desktop">
+        <div id="single-project-cover" class="project_10 desktop" data-midnight="white">
             <div class="keepScrollingContainer">
                 <a href="#anchor">
                     <div class="animated bounce">
@@ -33,11 +33,11 @@
                 </a>
             </div>
         </div>
-      <div class="col col-12 hide-on-desktop"><img src="../img/GIF-NaturallyMadeEssentials-01.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-12 hide-on-desktop"><img src="../img/GIF-NaturallyMadeEssentials-01.jpg" alt="NaturallyMadeEssentials" class="full-width" data-midnight="black"></div>
       <!--END PROJECT HEADER-->
 
       <!--PROJECT INFO-->
-      <div class="portfolio-info-container" id="anchor">
+      <div class="portfolio-info-container" id="anchor" data-midnight="black">
         <div class="single-portfolio-info">
           <div class="portfolio-summary col-9">
             <p class="txt-label">Sumary:</p>

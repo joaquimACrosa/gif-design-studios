@@ -1,9 +1,11 @@
 <header>
         <div class="loader"></div>
-        <div class="logo" id="logo">
-            <a href="/">
-            </a>
+
+        <div class="logo " id="logo">
+                <a href="/">
+                </a>
         </div>
+
         <div id="menu_toggle_container">
             <div class="bar1"></div>
             <div class="bar2"></div>
