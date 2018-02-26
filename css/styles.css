@@ -298,12 +298,12 @@ a {
 /*HEADER*/
 #logo {
   position: fixed;
+  width: 32px;
+  height: 35px;
   background-size: 32px;
   z-index: 10;
-  left: 40px;
-  top: 40px;
-  width: 32px;
-  height: 35px; }
+  top: 40px !important;
+  left: 40px !important; }
   #logo a svg {
     width: 32px;
     height: 35px; }
@@ -311,19 +311,25 @@ a {
 #menu_toggle_container.background--light .bar1, #menu_toggle_container.background--light .bar2, #menu_toggle_container.background--light .bar3 {
   background-color: #3a3a3a; }
 
-g.logo_svg.background--light {
-  fill: #3a3a3a; }
-
-.logo.background--light {
-  background-image: url("../img/GIF-LogoBlack-@2x.png") !important;
+.midnightHeader.black {
+  background-image: url("../img/GIF-LogoBlack-@2x.png");
   position: fixed;
   background-size: 32px;
   z-index: 11;
   left: 40px;
   top: 40px;
   width: 32px;
-  height: 35px;
-  fill: #fff; }
+  height: 35px; }
+
+.midnightHeader.white {
+  background-image: url("../img/GIF-LogoWhite-@2x.png");
+  position: fixed;
+  background-size: 32px;
+  z-index: 11;
+  left: 40px;
+  top: 40px;
+  width: 32px;
+  height: 35px; }
 
 #logo {
   position: fixed;
@@ -332,8 +338,7 @@ g.logo_svg.background--light {
   left: 40px;
   top: 40px;
   width: 32px;
-  height: 35px;
-  background-image: url("../img/GIF-LogoWhite-@2x.png"); }
+  height: 35px; }
 
 #logo a {
   width: 32px;

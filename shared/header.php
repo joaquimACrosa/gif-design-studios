@@ -1,9 +1,11 @@
 <header>
         <div class="loader"></div>
 
-        <div class="logo " id="logo">
-                <a href="/">
-                </a>
+        <div class="top-nav">
+            <div class="logo midnightHeader" id="logo">
+                    <a href="/">
+                    </a>
+            </div>
         </div>
 
         <div id="menu_toggle_container">

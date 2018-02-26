@@ -66,8 +66,8 @@
       </div>
       <!--END PROJECT INFO-->
 
-      <div class="col col-12"><img src="../img/GIF-NaturallyMadeEssentials-02.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
-      <div class="col col-12"><img src="../img/GIF-NaturallyMadeEssentials-03.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-12" data-midnight="black"><img src="../img/GIF-NaturallyMadeEssentials-02.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-12" data-midnight="black"><img src="../img/GIF-NaturallyMadeEssentials-03.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
       <div class="cell col-6 table testimonial">
         <div class="square-responsive square-center">
             <p class="bold">GIF Design Studios helped us develop a new brand identity that we feel will help distinguish us from our competitors.</p>
@@ -75,18 +75,18 @@
             <p class="bold project-text-color">Naturally Made Essentials</p>
         </div>
       </div>
-      <div class="cell col-6 desktop">
+      <div class="cell col-6 desktop" data-midnight="black">
         <div class="square-responsive square-image1"></div>
       </div>
-      <div class="col col-12 tablet"><img src="../img/GIF-NaturallyMadeEssentials-04.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
-      <div class="col col-12"><img src="../img/GIF-NaturallyMadeEssentials-05.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
-      <div class="col col-6"><img src="../img/GIF-NaturallyMadeEssentials-06.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
-      <div class="col col-6"><img src="../img/GIF-NaturallyMadeEssentials-07.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
-      <div class="col col-12"><img src="../img/GIF-NaturallyMadeEssentials-08.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-12 tablet" data-midnight="black"><img src="../img/GIF-NaturallyMadeEssentials-04.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-12" data-midnight="white"><img src="../img/GIF-NaturallyMadeEssentials-05.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-6" data-midnight="white"><img src="../img/GIF-NaturallyMadeEssentials-06.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-6" data-midnight="black"><img src="../img/GIF-NaturallyMadeEssentials-07.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-12" data-midnight="black"><img src="../img/GIF-NaturallyMadeEssentials-08.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
 
       <!-- BOTTOM INFO -->
 
-      <div class="project-links project-color">
+      <div class="project-links project-color" data-midnight="white">
         <div class="col col-3"></div>
         <div class="col col-3">
           <div class="link-icon"><a class="isDisabled" href=""><i class="fa fa-behance inactive" aria-hidden="true"></i></a></div>
@@ -99,7 +99,7 @@
         </div>
         <div class="col col-3"></div>
       </div>
-      <div class="footer-project-nav project-nav">
+      <div class="footer-project-nav project-nav" data-midnight="black">
         <div class="nav-prev"><a href="atticus.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowLeft-White-@2x.png" alt="Left"><img class="grey-arrow mobile" width="43" src="../img/GIF-ArrowLeft-Grey-@2x.png" alt="Left"><div>Previous</div></a></div>
         <div class="nav-next"><a href="the-bridal-collection-harrogate.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowRight-White-@2x.png" alt="Right"><img width="43" class="grey-arrow mobile" src="../img/GIF-ArrowRight-Grey-@2x.png" alt="Left"><div>Next</div></a></div>
       </div>

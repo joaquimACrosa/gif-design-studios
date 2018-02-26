@@ -102,12 +102,12 @@ a{
 #logo{
     position: fixed;
     // background-image: url('../img/GIF-Website-Logo.svg');
-    background-size: 32px;
-    z-index: 10;
-    left: 40px;
-    top: 40px;
     width: 32px;
     height: 35px;
+    background-size: 32px;
+    z-index: 10;
+    top: 40px!important;
+    left: 40px!important;
 
     a{
         svg{
@@ -121,23 +121,52 @@ a{
     background-color: #3a3a3a;
 }
 
-g.logo_svg.background--light {
-    fill: #3a3a3a;
+
+
+// .logo.background--light {
+//     background-image: url('../img/GIF-LogoBlack-@2x.png') !important;
+//     position: fixed;
+//     background-size: 32px;
+//     z-index: 11;
+//     left: 40px;
+//     top: 40px;
+//     width: 32px;
+//     height: 35px;
+// }
+
+// .midnightHeader.white {
+//     background-image: url('../img/GIF-LogoWhite-@2x.png')
+// }
+// .midnightHeader.black {
+//     background-image: url('../img/GIF-LogoBlack-@2x.png')
+// }
+
+
+.midnightHeader.black {
+  // background: blue;
+  background-image: url('../img/GIF-LogoBlack-@2x.png');
+  position: fixed;
+  background-size: 32px;
+  z-index: 11;
+  left: 40px;
+  top: 40px;
+  width: 32px;
+  height: 35px;
 }
 
-.logo.background--light {
-    background-image: url('../img/GIF-LogoBlack-@2x.png') !important;
-    position: fixed;
-    background-size: 32px;
-    z-index: 11;
-    left: 40px;
-    top: 40px;
-    width: 32px;
-    height: 35px;
-    fill:#fff;
+.midnightHeader.white {
+  // background: white;
+  background-image: url('../img/GIF-LogoWhite-@2x.png');
+  position: fixed;
+  background-size: 32px;
+  z-index: 11;
+  left: 40px;
+  top: 40px;
+  width: 32px;
+  height: 35px;
 }
 
-// .logo {
+// .midnightHeader{
 //
 //     position: fixed;
 //     background-size: 32px;
@@ -157,7 +186,7 @@ g.logo_svg.background--light {
     top: 40px;
     width: 32px;
     height: 35px;
-    background-image: url('../img/GIF-LogoWhite-@2x.png');
+    ;
 }
 
 #logo a{
@@ -165,6 +194,8 @@ g.logo_svg.background--light {
   height: 35px;
   display: block;
 }
+
+
 /*MENU*/
 #menu_toggle_container {
     display: inline-block;

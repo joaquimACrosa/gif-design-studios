@@ -4,20 +4,21 @@
 <script src="../js/typed.min.js"></script>
 <script src="../js/squareResponsive.js"></script>
 <script type="text/javascript" src="../js/background-check.min.js"></script>
-<script src="../node_modules/midnight.jquery.js"></script>
-<!-- <script>
+<script src="../node_modules/midnight.js/midnight.jquery.js"></script>
+
+<script>
   // Start midnight
   $(document).ready(function(){
     // Change this to the correct selector for your nav.
-    $('midnightHeader').midnight();
+    $('.midnightHeader').midnight();
   });
-</script> -->
+</script>
 
 <script type="text/javascript">
-  $(document).ready(function() {
-      BackgroundCheck.init({
-          targets: '.logo, #menu_toggle_container'
-        });
+  // $(document).ready(function() {
+  //     BackgroundCheck.init({
+  //         targets: '.logo, #menu_toggle_container'
+  //       });
 
 
     function fullscreen(){
