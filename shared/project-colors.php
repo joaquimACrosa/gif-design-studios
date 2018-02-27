@@ -10,3 +10,4 @@
     <?php $colorMichellemcglade = '#A58B7C';?>
     <?php $colorTherapyinstitute = '#8FCA8A';?>
     <?php $colorBCH = '#BF724F';?>
+    <?php $colorAlexshalman = '#29bab5';?>
