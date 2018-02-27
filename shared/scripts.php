@@ -4,7 +4,8 @@
 <script src="../js/typed.min.js"></script>
 <script src="../js/squareResponsive.js"></script>
 <script type="text/javascript" src="../js/background-check.min.js"></script>
-<script src="../node_modules/midnight.js/midnight.jquery.js"></script>
+
+<!-- <script src="../node_modules/midnight.js/midnight.jquery.js"></script>
 
 <script>
   // Start midnight
@@ -12,13 +13,25 @@
     // Change this to the correct selector for your nav.
     $('.midnightHeader').midnight();
   });
+</script> -->
+
+<script>
+    $(document).ready(function (){
+        $(".keepScrollingContainer").click(function (){
+            $('html, body').animate({
+                scrollTop: $("#anchor").offset().top
+            }, 1000);
+        });
+    });
 </script>
 
 <script type="text/javascript">
-  // $(document).ready(function() {
-  //     BackgroundCheck.init({
-  //         targets: '.logo, #menu_toggle_container'
-  //       });
+  $(document).ready(function() {
+      BackgroundCheck.init({
+          targets: '.logo, #menu_toggle_container'
+        });
+
+        BackgroundCheck.refresh();
 
 
     function fullscreen(){

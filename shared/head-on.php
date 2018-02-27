@@ -44,5 +44,3 @@ include '../library/template_functions/t_functions.php';
   <link rel="stylesheet" type="text/css" href="../css/typed.css">
   <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="../css/animate.css">
-
-  <link rel="stylesheet" type="text/css" href="<?php echo basename($_SERVER['PHP_SELF'],'.php');?>.css">

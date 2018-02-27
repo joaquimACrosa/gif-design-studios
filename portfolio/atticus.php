@@ -13,6 +13,28 @@
 
   <?php include ('../shared/getAnalytics.php');?> <!-- INCLUDE ANALYTICS -->
 
+  <?php include ('../shared/project-colors.php');?> <!-- INCLUDE COLORS FOR PROJECTS -->
+
+  <style>
+
+    <?php $project_color = 'colorAtticus'; ?>
+
+      .project-color{
+          background-color: <?php echo $$project_color?>;
+      }
+      .txt-label{
+          color: <?php echo $$project_color?>;
+      }
+      .project-text-color{
+          color: <?php echo $$project_color?>;
+      }
+
+      a{
+          color: <?php echo $$project_color?>;
+      }
+
+  </style>
+
   <?php include ('../shared/head-off.php');?> <!-- INCLUDE 2ND HEAD -->
 
 <body class="single-portfolio no-hijack project-atticus">

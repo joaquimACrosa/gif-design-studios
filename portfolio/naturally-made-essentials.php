@@ -1,6 +1,6 @@
   <?php include ('../shared/start.php');?> <!-- INCLUDE START -->
 
-  <?php include ('../shared/head-on.php');?> <!-- INCLUDE 1ST HEAD -->
+  <?php include ('../shared/head-on.php');?> <!-- INCLUDE TOP OF HEAD -->
 
   <!-- ADD PREFIX TO PAGE -->
   <script>
@@ -13,7 +13,29 @@
 
   <?php include ('../shared/getAnalytics.php');?> <!-- INCLUDE ANALYTICS -->
 
-  <?php include ('../shared/head-off.php');?> <!-- INCLUDE 2ND HEAD -->
+  <?php include ('../shared/project-colors.php');?> <!-- INCLUDE COLORS FOR PROJECTS -->
+
+  <style>
+
+    <?php $project_color = 'colorNME'; ?>
+
+      .project-color{
+          background-color: <?php echo $$project_color?>;
+      }
+      .txt-label{
+          color: <?php echo $$project_color?>;
+      }
+      .project-text-color{
+          color: <?php echo $$project_color?>;
+      }
+
+      a{
+          color: <?php echo $$project_color?>;
+      }
+
+  </style>
+
+  <?php include ('../shared/head-off.php');?> <!-- INCLUDE BOTTOM OF HEAD -->
 
 <body class="single-portfolio no-hijack project-naturally-made-essentials">
 
@@ -23,9 +45,9 @@
   <main id="portfolio-page">
     <div>
       <!--PROJECT HEADER-->
-        <div id="single-project-cover" class="project_10 desktop" data-midnight="white">
+        <div id="single-project-cover" class="project_10 desktop">
             <div class="keepScrollingContainer">
-                <a href="#anchor">
+                <a href="javascript:void(0)">
                     <div class="animated bounce">
                         <img src="../img/GIF-ScrollWhite-@2x.png" width="25">
                     </div>
@@ -33,11 +55,11 @@
                 </a>
             </div>
         </div>
-      <div class="col col-12 hide-on-desktop"><img src="../img/GIF-NaturallyMadeEssentials-01.jpg" alt="NaturallyMadeEssentials" class="full-width" data-midnight="black"></div>
+      <div class="col col-12 hide-on-desktop"><img src="../img/GIF-NaturallyMadeEssentials-01.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
       <!--END PROJECT HEADER-->
 
       <!--PROJECT INFO-->
-      <div class="portfolio-info-container" id="anchor" data-midnight="black">
+      <div class="portfolio-info-container" id="anchor">
         <div class="single-portfolio-info">
           <div class="portfolio-summary col-9">
             <p class="txt-label">Sumary:</p>
@@ -66,8 +88,8 @@
       </div>
       <!--END PROJECT INFO-->
 
-      <div class="col col-12" data-midnight="black"><img src="../img/GIF-NaturallyMadeEssentials-02.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
-      <div class="col col-12" data-midnight="black"><img src="../img/GIF-NaturallyMadeEssentials-03.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-NaturallyMadeEssentials-02.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-NaturallyMadeEssentials-03.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
       <div class="cell col-6 table testimonial">
         <div class="square-responsive square-center">
             <p class="bold">GIF Design Studios helped us develop a new brand identity that we feel will help distinguish us from our competitors.</p>
@@ -75,18 +97,18 @@
             <p class="bold project-text-color">Naturally Made Essentials</p>
         </div>
       </div>
-      <div class="cell col-6 desktop" data-midnight="black">
+      <div class="cell col-6 desktop" >
         <div class="square-responsive square-image1"></div>
       </div>
-      <div class="col col-12 tablet" data-midnight="black"><img src="../img/GIF-NaturallyMadeEssentials-04.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
-      <div class="col col-12" data-midnight="white"><img src="../img/GIF-NaturallyMadeEssentials-05.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
-      <div class="col col-6" data-midnight="white"><img src="../img/GIF-NaturallyMadeEssentials-06.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
-      <div class="col col-6" data-midnight="black"><img src="../img/GIF-NaturallyMadeEssentials-07.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
-      <div class="col col-12" data-midnight="black"><img src="../img/GIF-NaturallyMadeEssentials-08.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-12 tablet" ><img src="../img/GIF-NaturallyMadeEssentials-04.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-NaturallyMadeEssentials-05.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-6" ><img src="../img/GIF-NaturallyMadeEssentials-06.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-6" ><img src="../img/GIF-NaturallyMadeEssentials-07.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-NaturallyMadeEssentials-08.jpg" alt="NaturallyMadeEssentials" class="full-width"></div>
 
       <!-- BOTTOM INFO -->
 
-      <div class="project-links project-color" data-midnight="white">
+      <div class="project-links project-color" >
         <div class="col col-3"></div>
         <div class="col col-3">
           <div class="link-icon"><a class="isDisabled" href=""><i class="fa fa-behance inactive" aria-hidden="true"></i></a></div>
@@ -99,7 +121,7 @@
         </div>
         <div class="col col-3"></div>
       </div>
-      <div class="footer-project-nav project-nav" data-midnight="black">
+      <div class="footer-project-nav project-nav" >
         <div class="nav-prev"><a href="atticus.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowLeft-White-@2x.png" alt="Left"><img class="grey-arrow mobile" width="43" src="../img/GIF-ArrowLeft-Grey-@2x.png" alt="Left"><div>Previous</div></a></div>
         <div class="nav-next"><a href="the-bridal-collection-harrogate.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowRight-White-@2x.png" alt="Right"><img width="43" class="grey-arrow mobile" src="../img/GIF-ArrowRight-Grey-@2x.png" alt="Left"><div>Next</div></a></div>
       </div>
@@ -112,5 +134,7 @@
     </div>
   </main>
 </div> <!-- CLOSE WRAPPER -->
+
+
 
 <?php include ('../shared/end.php');?> <!-- INCLUDE END -->
