@@ -32,12 +32,12 @@ include 'library/template_functions/t_functions.php';
           e.preventDefault();
           var email = $('#contactsInputMail').val();
           var message = $('#textarea-contact').val();
-        
+
         function validateEmail(email) {
             var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
             return re.test(email);
         }
-       
+
         if (email!='' && message!=''){
         $.ajax({
 		    type: "POST",
@@ -95,7 +95,7 @@ include 'library/template_functions/t_functions.php';
 
   <main id="contact-page">
     <div id="fullpage" class="fullpage-wrapper">
-       
+
         <div class="section fp-section fp-table fp-completely" id="section0" data-anchor="OurFounders">
           <div class="page-header"><h1 class="white">Contact Us</h1></div>
           <div class="page-content">
@@ -104,7 +104,7 @@ include 'library/template_functions/t_functions.php';
                 <a href="#" id="mailContacts">info@gifdesignstudios.com</a><br>
                 <span>Praceta Adelino Amaro da Costa, 728, 8E</span><br>
                 <span>Porto -- Portugal</span><br><br>
-                <a id="helloBtn" style="margin: 0 auto !important" class="btn btn-white-orange" href="#">Say Hello</a>
+                <!-- <a id="helloBtn" style="margin: 0 auto !important" class="btn btn-white-orange" href="#">Say Hello</a> -->
             </div>
            <!--END SECTION 1-->
            <!--SECTION 2-->
@@ -156,7 +156,7 @@ include 'library/template_functions/t_functions.php';
 
 
     </div>
-      
+
 </main>
 </div>
 <? echo getFooter(); ?>

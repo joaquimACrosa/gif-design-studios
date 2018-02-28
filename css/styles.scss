@@ -1,6 +1,7 @@
 @import '_fonts.scss';
 @import '_colors.scss';
 @import '_layout.scss';
+@import '_portfolio-backgrounds.scss';
 
 
 @mixin bg-cover-center{
@@ -952,7 +953,8 @@ div.cursor {
 #contact-page #contactsSection2 {
 
     position: absolute;
-    visibility: hidden;
+    /* visibility: hidden; */
+    top: 150px;
     z-index: 1;
 
 }
@@ -991,7 +993,7 @@ fromLeft:after{  transform-origin:  0% 50%; }
 #contact-page #contactsSection4 {
 
     position: absolute;
-    visibility: hidden;
+    // visibility: hidden;
     z-index: 3;
 
 }
@@ -1204,39 +1206,7 @@ img.full-width, img.img-fw {
   width: 100vw !important;
   height: 100vh !important;
 }
-.project_01 {
-  background-image: url(../img/GIF-Atticus-01.jpg);
-}
-.project_02 {
-  background-image: url(../img/GIF-Foodie-01.jpg);
-}
-.project_03 {
-  background-image: url(../img/GIF-BabyBareEssentials-01.jpg);
-}
-.project_04 {
-  background-image: url(../img/GIF-MichelleMcGlade-01.jpg);
-}
-.project_05 {
-  background-image: url(../img/GIF-NTI-01.jpg);
-}
-.project_06 {
-  background-image: url(../img/GIF-Bibliohive-01.jpg);
-}
-.project_07 {
-  background-image: url(../img/GIF-TheBridalCollection-01.jpg);
-}
-.project_08 {
-  background-image: url(../img/GIF-BiddyTarot-01.jpg);
-}
-.project_09 {
-  background-image: url(../img/GIF-GigiGuides-01.jpg);
-}
-.project_10 {
-  background-image: url(../img/GIF-NaturallyMadeEssentials-01.jpg);
-}
-.project_11 {
-  background-image: url(../img/GIF-AlexShalman-01.png);
-}
+
 
 
 .link-icon{
@@ -1288,152 +1258,6 @@ img.full-width, img.img-fw {
 
 .cell{
   overflow: auto;
-}
-
-.project-foodie {
-    .square-image1{
-      background-image: url(../img/GIF-Foodie-03.jpg);
-      @include bg-cover-center;
-    }
-
-    .square-image2{
-      background-image: url(../img/GIF-Foodie-05.jpg);
-      @include bg-cover-center;
-    }
-
-    .square-image3{
-      background-image: url(../img/GIF-Foodie-06.jpg);
-      @include bg-cover-center;
-    }
-}
-
-#foodie-video{
-    margin-bottom: -10px;
-}
-
-
-.project-baby-bare{
-
-    .square-image1{
-        background-image: url(../img/GIF-BabyBareEssentials-03.jpg);
-        @include bg-cover-center;
-        }
-
-    .square-image2{
-        background-image: url(../img/GIF-BabyBareEssentials-06.jpg);
-        @include bg-cover-center;
-    }
-    .square-image3{
-        background-image: url(../img/GIF-BabyBareEssentials-07.jpg);
-        @include bg-cover-center;
-    }
-}
-
-.project-michelle {
-    .square-image1{
-    background-image: url(../img/GIF-MichelleMcGlade-04.jpg);
-    @include bg-cover-center;
-    }
-}
-.project-nti {
-
-  .square-image1{
-    background-image: url(../img/GIF-NTI-04.jpg);
-    @include bg-cover-center;
-  }
-
-  .square-image2{
-      background-image: url(../img/GIF-NTI-06.jpg);
-      @include bg-cover-center;
-  }
-
-  .square-image3{
-      background-image: url(../img/GIF-NTI-07.jpg);
-      @include bg-cover-center;
-  }
-
-}
-
-.project-bibliohive {
-  .square-image1{
-    background-image: url(../img/GIF-Bibliohive-04.jpg);
-    @include bg-cover-center;
-  }
-}
-.project-bridal{
-  .square-image1{
-    background-image: url(../img/GIF-TheBridalCollection-04.jpg);
-    @include bg-cover-center;
-  }
-  .square-image2{
-      background-image: url(../img/GIF-TheBridalCollection-07.jpg);
-      @include bg-cover-center;
-  }
-  .square-image3{
-      background-image: url(../img/GIF-TheBridalCollection-08.jpg);
-      @include bg-cover-center;
-  }
-}
-
-.project-biddy{
-    .square-image1{
-        background-image: url(../img/GIF-BiddyTarot-03.jpg);
-        @include bg-cover-center;
-    }
-
-    .square-image2{
-        background-image: url(../img/GIF-BiddyTarot-05.jpg);
-        @include bg-cover-center;
-    }
-
-    .square-image3{
-        background-image: url(../img/GIF-BiddyTarot-06.jpg);
-        @include bg-cover-center;
-    }
-
-    .square-image4{
-        background-image: url(../img/GIF-BiddyTarot-08.jpg);
-        @include bg-cover-center;
-    }
-
-    .square-image5{
-        background-image: url(../img/GIF-BiddyTarot-11.jpg);
-        @include bg-cover-center;
-    }
-}
-
-.project-gigi-guides{
-
-    .square-image1{
-        background-image: url(../img/GIF-GigiGuides-03.jpg);
-        @include bg-cover-center;
-    }
-
-    .square-image2{
-        background-image: url(../img/GIF-GigiGuides-05.jpg);
-        @include bg-cover-center;
-    }
-
-    .square-image3{
-        background-image: url(../img/GIF-GigiGuides-06.jpg);
-        @include bg-cover-center;
-    }
-}
-
-.project-atticus {
-  .square-image1{
-    background-image: url(../img/GIF-Atticus-04.jpg);
-    @include bg-cover-center;
-    background-position: -190px;
-  }
-}
-
-.project-naturally-made-essentials {
-  .square-image1{
-    background-image: url(../img/GIF-Atticus-04.jpg);
-    @include bg-cover-center;
-    background-position: -190px;
-  }
 }
 
 .square-responsive{

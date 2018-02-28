@@ -47,7 +47,7 @@
       <!--PROJECT HEADER-->
         <div id="single-project-cover" class="project_01 desktop">
             <div class="keepScrollingContainer">
-                <a href="#anchor">
+                <a href="javascript:void(0)">
                     <div class="animated bounce">
                         <img src="../img/GIF-Scroll-@2x.png" width="25">
                     </div>

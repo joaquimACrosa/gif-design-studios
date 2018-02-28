@@ -1,0 +1,202 @@
+@mixin bg-cover-center{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-foodie {
+    .project_02 {
+      background-image: url(../img/GIF-Foodie-01.jpg);
+    }
+
+    .square-image1{
+      background-image: url(../img/GIF-Foodie-03.jpg);
+      @include bg-cover-center;
+    }
+
+    .square-image2{
+      background-image: url(../img/GIF-Foodie-05.jpg);
+      @include bg-cover-center;
+    }
+
+    .square-image3{
+      background-image: url(../img/GIF-Foodie-06.jpg);
+      @include bg-cover-center;
+    }
+}
+
+#foodie-video{
+    margin-bottom: -10px;
+}
+
+
+.project-baby-bare{
+
+    .project_03 {
+      background-image: url(../img/GIF-BabyBareEssentials-01.jpg);
+    }
+
+    .square-image1{
+        background-image: url(../img/GIF-BabyBareEssentials-03.jpg);
+        @include bg-cover-center;
+        }
+
+    .square-image2{
+        background-image: url(../img/GIF-BabyBareEssentials-06.jpg);
+        @include bg-cover-center;
+    }
+    .square-image3{
+        background-image: url(../img/GIF-BabyBareEssentials-07.jpg);
+        @include bg-cover-center;
+    }
+}
+
+.project-michelle {
+    .project_04 {
+      background-image: url(../img/GIF-MichelleMcGlade-01.jpg);
+    }
+
+    .square-image1{
+    background-image: url(../img/GIF-MichelleMcGlade-04.jpg);
+    @include bg-cover-center;
+    }
+}
+.project-nti {
+
+    .project_05 {
+      background-image: url(../img/GIF-NTI-01.jpg);
+    }
+
+  .square-image1{
+    background-image: url(../img/GIF-NTI-04.jpg);
+    @include bg-cover-center;
+  }
+
+  .square-image2{
+      background-image: url(../img/GIF-NTI-06.jpg);
+      @include bg-cover-center;
+  }
+
+  .square-image3{
+      background-image: url(../img/GIF-NTI-07.jpg);
+      @include bg-cover-center;
+  }
+
+}
+
+.project-bibliohive {
+    .project_06 {
+      background-image: url(../img/GIF-Bibliohive-01.jpg);
+    }
+
+  .square-image1{
+    background-image: url(../img/GIF-Bibliohive-04.jpg);
+    @include bg-cover-center;
+  }
+}
+.project-bridal{
+    .project_07 {
+      background-image: url(../img/GIF-TheBridalCollection-01.jpg);
+    }
+    .square-image1{
+    background-image: url(../img/GIF-TheBridalCollection-04.jpg);
+    @include bg-cover-center;
+    }
+    .square-image2{
+      background-image: url(../img/GIF-TheBridalCollection-07.jpg);
+      @include bg-cover-center;
+    }
+    .square-image3{
+      background-image: url(../img/GIF-TheBridalCollection-08.jpg);
+      @include bg-cover-center;
+    }
+}
+
+.project-biddy{
+    .project_08 {
+      background-image: url(../img/GIF-BiddyTarot-01.jpg);
+    }
+
+        .square-image1{
+        background-image: url(../img/GIF-BiddyTarot-03.jpg);
+        @include bg-cover-center;
+    }
+
+    .square-image2{
+        background-image: url(../img/GIF-BiddyTarot-05.jpg);
+        @include bg-cover-center;
+    }
+
+    .square-image3{
+        background-image: url(../img/GIF-BiddyTarot-06.jpg);
+        @include bg-cover-center;
+    }
+
+    .square-image4{
+        background-image: url(../img/GIF-BiddyTarot-08.jpg);
+        @include bg-cover-center;
+    }
+
+    .square-image5{
+        background-image: url(../img/GIF-BiddyTarot-11.jpg);
+        @include bg-cover-center;
+    }
+}
+
+.project-gigi-guides{
+
+    .project_09 {
+      background-image: url(../img/GIF-GigiGuides-01.jpg);
+    }
+
+    .square-image1{
+        background-image: url(../img/GIF-GigiGuides-03.jpg);
+        @include bg-cover-center;
+    }
+
+    .square-image2{
+        background-image: url(../img/GIF-GigiGuides-05.jpg);
+        @include bg-cover-center;
+    }
+
+    .square-image3{
+        background-image: url(../img/GIF-GigiGuides-06.jpg);
+        @include bg-cover-center;
+    }
+}
+
+.project-atticus {
+    .project_01 {
+      background-image: url(../img/GIF-Atticus-01.jpg);
+    }
+
+      .square-image1{
+        background-image: url(../img/GIF-Atticus-04.jpg);
+        @include bg-cover-center;
+        background-position: -190px;
+      }
+}
+
+.project-naturally-made-essentials {
+    .project_10 {
+      background-image: url(../img/GIF-NaturallyMadeEssentials-01.jpg);
+    }
+
+    .square-image1{
+        background-image: url(../img/GIF-Atticus-04.jpg);
+        @include bg-cover-center;
+        background-position: -190px;
+    }
+}
+
+.project-alex-shalman {
+    .project_11 {
+      background-image: url(../img/GIF-AlexShalman-01.png);
+    }
+
+    .square-image1{
+        background-image: url(../img/GIF-AlexShalman-03.png);
+        @include bg-cover-center;
+        background-position: -190px;
+    }
+}
