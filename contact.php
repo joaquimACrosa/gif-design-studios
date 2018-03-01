@@ -24,7 +24,7 @@ include 'library/template_functions/t_functions.php';
 <script src="js/typed.min.js"></script>
 <script type="text/javascript" src="js/jquery.fullpage.js"></script>
 <script src="js/modernizr.custom.js"></script>
-
+<script src="js/jquery.autoresize.js"></script>
 
 <script type="text/javascript">
   $(document).ready(function() {
@@ -64,29 +64,54 @@ include 'library/template_functions/t_functions.php';
           css3: true,
           scrollingSpeed: 1000
       });
-  });
-  $(function() {
-          $('textarea').focus(function() {
-              $(this).prev().css("visibility", "hidden");
-        });
-        $('textarea').focusout(function() {
-            if ($(this).val()==''){
-                $(this).css("visibility", "visible");
-            }
 
+      $('textarea').autoResize({
+        	maxHeight: 5000,
+        	minHeight: 25
         });
 
-    jQuery.each(jQuery('textarea[data-autoresize]'), function() {
-    var offset = this.offsetHeight - this.clientHeight;
-
-    var resizeTextarea = function(el) {
-        jQuery(el).css('height', 'auto').css('height', el.scrollHeight + offset);
-    };
-    jQuery(this).on('keyup input', function() { resizeTextarea(this); }).removeAttr('data-autoresize');
-});
-    cbpBGSlideshow.init();
   });
+//   $(function() {
+//           $('textarea').focus(function() {
+//               $(this).prev().css("visibility", "hidden");
+//         });
+//         $('textarea').focusout(function() {
+//             if ($(this).val()==''){
+//                 $(this).css("visibility", "visible");
+//             }
+//
+//         });
+//
+//     jQuery.each(jQuery('textarea[data-autoresize]'), function() {
+//     var offset = this.offsetHeight - this.clientHeight;
+//
+//     var resizeTextarea = function(el) {
+//         jQuery(el).css('height', 'auto').css('height', el.scrollHeight + offset);
+//     };
+//     jQuery(this).on('keyup input', function() { resizeTextarea(this); }).removeAttr('data-autoresize');
+// });
+//     cbpBGSlideshow.init();
+//   });
+
 </script>
+<script>
+
+    $(document)
+        .one('focus.autoExpand', 'textarea.autoExpand', function(){
+            var savedValue = this.value;
+            this.value = '';
+            this.baseScrollHeight = this.scrollHeight;
+            this.value = savedValue;
+        })
+        .on('input.autoExpand', 'textarea.autoExpand', function(){
+            var minRows = this.getAttribute('data-min-rows')|0, rows;
+            this.rows = minRows;
+            rows = Math.ceil((this.scrollHeight - this.baseScrollHeight) / 16);
+            this.rows = minRows + rows;
+        });
+
+</script>
+
  <? echo scriptsHead(); ?>
 </head>
 <body>
@@ -94,10 +119,10 @@ include 'library/template_functions/t_functions.php';
 <div id="wrapper">
 
   <main id="contact-page">
-    <div id="fullpage" class="fullpage-wrapper">
+    <div id="" class="fullpage-wrapper">
 
         <div class="section fp-section fp-table fp-completely" id="section0" data-anchor="OurFounders">
-          <div class="page-header"><h1 class="white">Contact Us</h1></div>
+          <div class="page-header contact-header"><h1>Contact Us</h1></div>
           <div class="page-content">
           <!--SECTION 1-->
            <div id="contactsSection1">
@@ -112,32 +137,28 @@ include 'library/template_functions/t_functions.php';
                 <p>Dear GIF Design Studios,</p>
                 <form id="formContacts">
                   <div>
-                     <div class="cursor"></div>
                       <textarea id="textarea-contact" class="contact-us" name="message"></textarea>
                   </div>
 
-                <a id="contactSec2NextBtn" class="btn btn-white-orange" href="#">Next</a>
+                <!-- <a id="contactSec2NextBtn" class="btn btn-white-orange" href="#">Next</a> -->
             </div>
            <!--END SECTION 2-->
            <!--SECTION 3-->
            <div id="contactsSection3">
-                <p>Dear GIF Design Studios,</p>
+                <p>Email:</p>
 
                   <div >
-                      <span id="spanContactSec3" name="message"></span>
+                      <input id="spanContactSec3" name="email" type="email"></input>
                   </div>
 
-                <a id="contactSec3NextBtn" class="btn btn-white" href="#">Next</a>
             </div>
            <!--END SECTION 3-->
            <!--SECTION 4-->
            <div id="contactsSection4" >
-                <p>We just need your email so we can get back to you:</p>
 
                  <label>
                   <div>
-                      <div class="cursor"></div>
-                      <input id="contactsInputMail" type="email" name="email" >
+                      <!-- <input id="contactsInputMail" type="email" name="email" > -->
                       <div style="display:none;color:red;margin-top:20px;" class="message-error">*Insert your message</div>
                       <div style="display:none;color:red;" class="email-error">*Insert your email</div>
                      </div>
