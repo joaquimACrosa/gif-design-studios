@@ -1159,21 +1159,15 @@ footer .btn {
   padding-bottom: 80px; }
 
 textarea.contact-us {
-  border: none;
   overflow: auto;
   outline: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
   resize: none;
-<<<<<<< HEAD
-  width: 100%;
+  width: 99%;
   border: 1px solid #e1e1e1;
-  padding: 10px; }
-=======
-  width: 500px;
-  height: 60px; }
->>>>>>> parent of 4778329... contact.php page updated
+  padding: 1%; }
 
 #contact-page #formContacts {
   margin-bottom: 50px;
@@ -1281,74 +1275,56 @@ div.cursor {
   50% {
     color: black; } }
 
-#contact-page #section0 .page-header {
+#contact-page #section0 .page-header .contact-header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   background-color: #ffaa00; }
+  #contact-page #section0 .page-header .contact-header h1 {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%; }
 
-#contact-page #section0 .page-header h1 {
-  position: absolute;
-  bottom: 10px;
-  text-align: center;
-  width: 100%; }
-
-[contentEditable=true]:empty:not(:focus):before {
-  content: attr(data-text); }
+#contact-page #section0 .contact-header {
+  padding-top: 200px; }
+  #contact-page #section0 .contact-header h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0; }
 
 #contact-page .page-content {
   position: relative; }
 
 #contact-page #contactsSection1 {
   padding-top: 25px;
-  position: absolute;
-  z-index: 0;
   width: inherit;
   height: inherit;
   text-align: center; }
-
-#contact-page #contactsSection1 #mailContacts {
-  color: #ffaa00;
-  text-decoration: none;
-  font-size: 20px; }
-
-#contact-page #contactsSection1 span {
-  font-size: 20px; }
+  #contact-page #contactsSection1 #mailContacts {
+    color: #ffaa00;
+    text-decoration: none;
+    font-size: 20px; }
+  #contact-page #contactsSection1 span {
+    font-size: 20px; }
 
 #contact-page #contactsSection2 {
-  position: absolute;
-  visibility: hidden;
-  z-index: 1; }
-
-fromLeft:after {
-  -webkit-transform-origin: 0% 50%;
-  -ms-transform-origin: 0% 50%;
-  transform-origin: 0% 50%; }
-
-.contact-us {
-  font-size: 20px;
-  color: #3a3a3a; }
-
-#contact-page #contactsSection2 p {
-  font-size: 20px; }
-
-#contact-page #contactsSection2 span {
-  font-size: 16px; }
-
-#contact-page #contactsSection3 {
-  position: absolute;
-  visibility: hidden;
-  z-index: 2; }
+  width: 100%; }
+  #contact-page #contactsSection2 p {
+    font-size: 20px; }
+  #contact-page #contactsSection2 span {
+    font-size: 16px; }
 
 #contact-page #contactsSection3 p {
   font-size: 20px;
-  color: lightgray; }
+  color: #000;
+  margin: 20px 0;
+  float: left; }
 
 #contact-page #contactsSection3 span {
   font-size: 16px; }
 
-<<<<<<< HEAD
 #contact-page #contactsSection3 input {
   float: left;
   margin: 15px 5px;
@@ -1359,38 +1335,51 @@ fromLeft:after {
   outline: none;
   padding: 5px;
   height: 35px; }
-=======
+
 #contact-page #contactsSection4 {
-  position: absolute;
-  visibility: hidden;
-  z-index: 3; }
-
-#contact-page #contactsSection4 p {
-  font-size: 20px; }
-
-#contact-page #contactsSection4 span {
-  font-size: 16px; }
-
-#contact-page #contactsSection4 #contactsInputMail {
-  border: none;
-  height: 20px;
-  width: 480px;
-  font-size: 14px;
-  color: #3a3a3a;
-  outline: none; }
->>>>>>> parent of 4778329... contact.php page updated
-
-#contact-page #contactsSection4 label, input {
-  display: block; }
-
-#contact-page #contactsSection4 label {
-  margin-bottom: 70px; }
+  float: left;
+  width: 100%; }
+  #contact-page #contactsSection4 p {
+    font-size: 20px; }
+  #contact-page #contactsSection4 span {
+    font-size: 16px; }
+  #contact-page #contactsSection4 #contactsInputMail {
+    height: 35px;
+    width: 99%;
+    color: #3a3a3a;
+    outline: none;
+    font-size: 20px;
+    float: left;
+    padding: 1%;
+    border: 1px solid #e1e1e1;
+    font-family: monospace; }
+  #contact-page #contactsSection4 label, #contact-page #contactsSection4 input {
+    display: block; }
+  #contact-page #contactsSection4 label {
+    margin-bottom: 70px; }
+  #contact-page #contactsSection4 input#contactSendMailBtn {
+    margin-top: 50px !important; }
+  #contact-page #contactsSection4 .s-message {
+    margin-top: 60px;
+    float: left; }
 
 #contact-page .home-footer {
   bottom: 0;
   width: 100%;
   height: 50px;
   position: absolute; }
+
+[contentEditable=true]:empty:not(:focus):before {
+  content: attr(data-text); }
+
+fromLeft:after {
+  -webkit-transform-origin: 0% 50%;
+  -ms-transform-origin: 0% 50%;
+  transform-origin: 0% 50%; }
+
+.contact-us {
+  font-size: 20px;
+  color: #3a3a3a; }
 
 .button-wrapper.by {
   display: none !important; }
@@ -1643,7 +1632,7 @@ img.full-width, img.img-fw {
   transform-origin: center; }
 
 #contact-page #contactsSection4 {
-  width: 551px; }
+  width: 100%; }
 
 .value-number div {
   text-align: center;
@@ -2002,7 +1991,7 @@ img.full-width, img.img-fw {
     display: block; }
   #contact-page .fp-tableCell {
     vertical-align: top; }
-  #contact-page .page-header, .page-content {
+  #contact-page .page-header, #contact-page .page-content {
     height: 200px; }
   #contact-page .page-content {
     width: 91%;
@@ -2014,13 +2003,6 @@ img.full-width, img.img-fw {
     left: 25%;
     width: 43px;
     float: left;
-    margin-bottom: 60px;
-    margin-top: 20px; }
-  .project-nav .nav-next {
-    position: relative;
-    right: 25%;
-    float: right;
-    width: 43px;
     margin-bottom: 60px;
     margin-top: 20px; }
   .footer-container .col-4 {
