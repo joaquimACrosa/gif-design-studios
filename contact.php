@@ -24,7 +24,8 @@ include 'library/template_functions/t_functions.php';
 <script src="js/typed.min.js"></script>
 <script type="text/javascript" src="js/jquery.fullpage.js"></script>
 <script src="js/modernizr.custom.js"></script>
-<script src="js/jquery.autoresize.js"></script>
+<!-- <script src="js/jquery.autoresize.js"></script> -->
+<!-- <script src="node_modules/autosize/dist/autosize.min."></script> -->
 
 <script type="text/javascript">
   $(document).ready(function() {
@@ -65,36 +66,38 @@ include 'library/template_functions/t_functions.php';
           scrollingSpeed: 1000
       });
 
-      $('textarea').autoResize({
-        	maxHeight: 5000,
-        	minHeight: 25
-        });
+      // $('textarea').autoResize({
+      //   	maxHeight: 5000,
+      //   	minHeight: 25
+      //   });
+
 
   });
-//   $(function() {
-//           $('textarea').focus(function() {
-//               $(this).prev().css("visibility", "hidden");
-//         });
-//         $('textarea').focusout(function() {
-//             if ($(this).val()==''){
-//                 $(this).css("visibility", "visible");
-//             }
-//
-//         });
-//
-//     jQuery.each(jQuery('textarea[data-autoresize]'), function() {
-//     var offset = this.offsetHeight - this.clientHeight;
-//
-//     var resizeTextarea = function(el) {
-//         jQuery(el).css('height', 'auto').css('height', el.scrollHeight + offset);
-//     };
-//     jQuery(this).on('keyup input', function() { resizeTextarea(this); }).removeAttr('data-autoresize');
-// });
-//     cbpBGSlideshow.init();
-//   });
+  $(function() {
+          $('textarea').focus(function() {
+              $(this).prev().css("visibility", "hidden");
+        });
+        $('textarea').focusout(function() {
+            if ($(this).val()==''){
+                $(this).css("visibility", "visible");
+            }
+
+        });
+
+    jQuery.each(jQuery('textarea[data-autoresize]'), function() {
+    var offset = this.offsetHeight - this.clientHeight;
+
+    var resizeTextarea = function(el) {
+        jQuery(el).css('height', 'auto').css('height', el.scrollHeight + offset);
+    };
+    jQuery(this).on('keyup input', function() { resizeTextarea(this); }).removeAttr('data-autoresize');
+});
+    cbpBGSlideshow.init();
+  });
+
 
 </script>
-<script>
+<!-- <script>
 
     $(document)
         .one('focus.autoExpand', 'textarea.autoExpand', function(){
@@ -110,12 +113,15 @@ include 'library/template_functions/t_functions.php';
             this.rows = minRows + rows;
         });
 
-</script>
+</script> -->
 
- <? echo scriptsHead(); ?>
+<?php include ('shared/scripts.php');?> <!-- INCLUDE SCRIPTS -->
+
 </head>
 <body>
-<? echo getHeader(); ?>
+
+<?php include ('shared/header.php');?> <!-- INCLUDE HEADER -->
+
 <div id="wrapper">
 
   <main id="contact-page">
@@ -180,7 +186,9 @@ include 'library/template_functions/t_functions.php';
 
 </main>
 </div>
-<? echo getFooter(); ?>
+
+ <?php include ('shared/footer.php');?> <!-- INCLUDE FOOTER -->
+
 <script src="js/jquery.imagesloaded.min.js"></script>
 
 

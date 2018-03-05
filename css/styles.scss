@@ -802,8 +802,8 @@ textarea.contact-us{
     box-shadow: none;
     resize: none;
     width: 100%;
-    border: none;
-    border-bottom: 1px solid #000;
+    border: 1px solid #e1e1e1;
+    padding: 10px;>
 }
 
 #contact-page #formContacts {
@@ -990,12 +990,14 @@ div.cursor {
 
            input{
                float: left;
-               margin: 20px 5px;
-               font-size: 20px;
-               border: none;
-               border-bottom: 1px solid #000;
-               width: 50%;
-               outline: none;
+                margin: 15px 5px;
+                font-size: 20px;
+                border: none;
+                border: 1px solid #e1e1e1;
+                width: 50%;
+                outline: none;
+                padding: 5px;
+                height: 35px;
            }
 
 

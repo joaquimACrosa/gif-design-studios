@@ -1,9 +1,9 @@
 
 <script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
-<script src="js/script.js"></script>
-<script src="js/typed.min.js"></script>
-<script src="js/squareResponsive.js"></script>
-<script type="text/javascript" src="js/background-check.min.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/typed.min.js"></script>
+<script src="../js/squareResponsive.js"></script>
+<script type="text/javascript" src="../js/background-check.min.js"></script>
 
 <!-- <script src="../node_modules/midnight.js/midnight.jquery.js"></script>
 
